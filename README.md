@@ -1,7 +1,12 @@
 ## Usage
 
-	node rest-client.js [--host <host>] [--port <port>] <request-path>
+	npm install -g tsunami
+	tsu [--host <host>] [--port <port>] <request-path>
 
 ## Help
 
-	node rest-client.js --help
+	tsu --help
+
+## Licence
+
+MIT

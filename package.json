@@ -1,0 +1,23 @@
+{
+    "name": "tsunami",
+    "version": "0.1.0-SNAPSHOT",
+    "description": "Command line REST client",
+    "main": "./lib/rest-client.js",
+    "bin": {
+	"tsu": "./bin/tsu"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://eprunier@github.com/eprunier/rest-cli-node.git"
+    },
+    "keywords": [
+	"rest",
+	"cli"
+    ],
+    "author": "Eric Prunier",
+    "license": "MIT",
+    "bugs": {
+	"url": "https://github.com/eprunier/tsunami/issues"
+    },
+    "homepage": "https://github.com/eprunier/tsunami"
+}
