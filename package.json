@@ -1,6 +1,6 @@
 {
     "name": "tsunami",
-    "version": "0.1.1",
+    "version": "0.2.0-SNAPSHOT",
     "description": "Command line REST client",
     "main": "./lib/rest-client.js",
     "bin": {
