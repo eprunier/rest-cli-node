@@ -9,4 +9,6 @@
 
 ## Licence
 
-MIT
+Copyright © 2012-2013 Eric Prunier
+
+Distributed under the Eclipse Public License v1.0
