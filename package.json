@@ -2,10 +2,10 @@
     "name": "tsunami",
     "version": "0.2.0-SNAPSHOT",
     "description": "Command line REST client",
-    "main": "./lib/rest-client.js",
     "bin": {
 	"tsu": "./bin/tsu"
     },
+    "main": "./lib/tsu.js",
     "repository": {
 	"type": "git",
 	"url": "https://eprunier@github.com/eprunier/rest-cli-node.git"
@@ -14,6 +14,9 @@
 	"rest",
 	"cli"
     ],
+    "dependencies": {
+	"minimist": ">=0.2.0"
+    },
     "author": "Eric Prunier",
     "license": "EPL-1.0",
     "bugs": {
