@@ -15,7 +15,8 @@
 	"cli"
     ],
     "dependencies": {
-	"minimist": ">=0.2.0"
+	"minimist": "0.2.0",
+	"pretty-data": "0.40.0"
     },
     "author": "Eric Prunier",
     "license": "EPL-1.0",
