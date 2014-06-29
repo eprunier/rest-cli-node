@@ -18,6 +18,10 @@
 	"minimist": "0.2.0",
 	"pretty-data": "0.40.0"
     },
+    "devDependencies": {
+	"should": "",
+	"sinon": ""
+    },
     "author": "Eric Prunier",
     "license": "EPL-1.0",
     "bugs": {
