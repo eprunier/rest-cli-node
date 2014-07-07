@@ -1,0 +1,12 @@
+
+Usage: tsu rest [-m|--method <method>] [--basic-auth <user:password>] [-v|--verbose] <url>
+
+Options:
+    --basic-auth
+        Add basic authorization header
+
+    -m, --method <method>
+        HTTP method (GET, POST, DELETE...). Default value is GET.
+
+    -v, --verbose
+        Verbose mode
