@@ -19,6 +19,8 @@
 	"pretty-data": "0.40.0"
     },
     "devDependencies": {
+	"grunt": "",
+	"grunt-contrib-jshint": "",
 	"should": "",
 	"sinon": ""
     },
