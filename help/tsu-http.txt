@@ -1,5 +1,5 @@
 
-Usage: tsu rest [-m|--method <method>] [--basic-auth <user:password>] [-v|--verbose] <url>
+Usage: tsu http [-m|--method <method>] [--basic-auth <user:password>] [-v|--verbose] <url>
 
 Options:
     --basic-auth

@@ -4,6 +4,6 @@ Usage: tsu <task>
 Available tasks:
 
     help
-    rest
+    http
 
 'tsu help <task>' to display a task help.
