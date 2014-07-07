@@ -1,12 +1,18 @@
 
-Usage: tsu http [-m|--method <method>] [--basic-auth <user:password>] [-v|--verbose] <url>
+Usage: tsu http [-m|--method <method>] [-h|--header <header>] [--basic-auth <user:password>] [-v|--verbose] <url>
 
 Options:
+    -h,	--header
+    	Add a header to the request. You may add any number of headers.
+	Exemples: 
+	    -h User-agent:foo
+	    -h 'User-agent:foo bar baz'
+
     --basic-auth
-        Add basic authorization header
+        Add basic authorization header.
 
     -m, --method <method>
         HTTP method (GET, POST, DELETE...). Default value is GET.
 
     -v, --verbose
-        Verbose mode
+        Verbose mode.
