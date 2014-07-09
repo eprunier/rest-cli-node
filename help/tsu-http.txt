@@ -1,5 +1,6 @@
 
-Usage: tsu http [-m|--method <method>] [-h|--header <header>] [--basic-auth <user:password>] [-v|--verbose] <url>
+Usage: tsu http [-m|--method <method>] [-h|--header <header>] [--basic-auth <user:password>] 
+       [-v|--verbose] [--proxy <proxy>] <url>
 
 Options:
     -h,	--header
@@ -13,6 +14,9 @@ Options:
 
     -m, --method <method>
         HTTP method (GET, POST, DELETE...). Default value is GET.
+
+    --proxy
+	Set HTTP proxy
 
     -v, --verbose
         Verbose mode.
