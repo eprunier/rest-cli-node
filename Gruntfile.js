@@ -13,7 +13,6 @@
 		    unused: true,
 		    strict: true,
 		    maxdepth: 2,
-		    maxstatements: 10,
 		    maxcomplexity: 5
 		}
 	    }
