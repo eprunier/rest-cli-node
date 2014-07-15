@@ -1,0 +1,18 @@
+
+Usage: tsu amqp [<options>] <message>
+
+Options:
+    -e, --exchange
+    	Exchange to send the message.
+
+    -h, --host
+    	AMQP server host
+
+    -k, --routing-key
+    	Routing key to use.
+
+    -p, --port
+    	AMQP server port
+ 
+    --rpc
+	Set RPC mode. Send a message and wait for response.
