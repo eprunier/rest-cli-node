@@ -1,21 +1,26 @@
 
-Usage: tsu http [-m|--method <method>] [-h|--header <header>] [--basic-auth <user:password>] 
-       [-v|--verbose] [--proxy <proxy>] <url>
+Usage: tsu http [<options>] <url>
 
 Options:
-    -h,	--header
+    -d, --data <data>
+    	Data to send to the server.    	
+
+    --follow-redirect
+    	Follow redirect (HTTP 3xx status code). Default: false.
+
+    -h,	--header <header>
     	Add a header to the request. You may add any number of headers.
 	Exemples: 
 	    -h User-agent:foo
 	    -h 'User-agent:foo bar baz'
 
-    --basic-auth
+    --basic-auth <auth>
         Add basic authorization header.
 
     -m, --method <method>
-        HTTP method (GET, POST, DELETE...). Default value is GET.
+        HTTP method (GET, POST, DELETE...). Default: GET.
 
-    --proxy
+    --proxy <proxy>
 	Set HTTP proxy
 
     -v, --verbose
