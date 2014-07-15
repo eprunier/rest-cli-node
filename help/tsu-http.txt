@@ -2,6 +2,9 @@
 Usage: tsu http [<options>] <url>
 
 Options:
+    --basic-auth <auth>
+        Add basic authorization header.
+
     -d, --data <data>
     	Data to send to the server.    	
 
@@ -13,9 +16,6 @@ Options:
 	Exemples: 
 	    -h User-agent:foo
 	    -h 'User-agent:foo bar baz'
-
-    --basic-auth <auth>
-        Add basic authorization header.
 
     -m, --method <method>
         HTTP method (GET, POST, DELETE...). Default: GET.
