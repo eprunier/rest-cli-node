@@ -2,16 +2,16 @@
 Usage: tsu amqp [<options>] <message>
 
 Options:
-    -e, --exchange
-    	Exchange to send the message.
+    -e, --exchange <name>
+    	Name of the exchange to send the message.
 
-    -h, --host
+    -h, --host <hostname>
     	AMQP server host
 
-    -k, --routing-key
+    -k, --routing-key <routing key>
     	Routing key to use.
 
-    -p, --port
+    -p, --port <port>
     	AMQP server port
  
     --rpc
