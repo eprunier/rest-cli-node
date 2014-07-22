@@ -7,6 +7,9 @@ Options:
 
     -d, --data <data>
     	Data to send to the server.    	
+	
+    -f, --file <file path>
+    	File containing data to send to the server.
 
     --follow-redirect
     	Follow redirect (HTTP 3xx status code). Default: false.
