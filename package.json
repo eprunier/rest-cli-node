@@ -2,6 +2,10 @@
     "name": "tsunami",
     "version": "0.2.0-SNAPSHOT",
     "description": "Command line REST client",
+    "scripts": {
+	"start": "node ./bin/tsu",
+	"test": "grunt"
+    },
     "bin": {
 	"tsu": "./bin/tsu"
     },
