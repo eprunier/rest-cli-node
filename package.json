@@ -1,7 +1,7 @@
 {
     "name": "tsunami",
     "version": "0.2.0-SNAPSHOT",
-    "description": "Command line REST client",
+    "description": "Command line client",
     "scripts": {
 	"start": "node ./bin/tsu",
 	"test": "grunt"
@@ -12,7 +12,7 @@
     "main": "./lib/tsu.js",
     "repository": {
 	"type": "git",
-	"url": "https://eprunier@github.com/eprunier/rest-cli-node.git"
+	"url": "https://eprunier@github.com/eprunier/tsunami.git"
     },
     "keywords": [
 	"rest",
@@ -31,7 +31,7 @@
 	"grunt-contrib-jshint": "^0.10.0"
     },
     "author": "Eric Prunier",
-    "license": "EPL-1.0",
+    "license": "MIT",
     "bugs": {
 	"url": "https://github.com/eprunier/tsunami/issues"
     },
