@@ -5,14 +5,17 @@ Options:
     -e, --exchange <name>
     	Name of the exchange to send the message.
 
+    -f, --file <file>
+    	Load message from file.
+
     -h, --host <hostname>
-    	AMQP server host
+    	AMQP server host.
 
     -k, --routing-key <routing key>
     	Routing key to use.
 
     -p, --port <port>
-    	AMQP server port
+    	AMQP server port.
  
     --rpc
 	Set RPC mode. Send a message and wait for response.
