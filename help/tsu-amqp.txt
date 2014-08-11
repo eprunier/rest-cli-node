@@ -16,6 +16,6 @@ Options:
 
     -p, --port <port>
     	AMQP server port.
- 
-    --rpc
-	Set RPC mode. Send a message and wait for response.
+
+    -v, --verbose
+    	Set verbose mode.
