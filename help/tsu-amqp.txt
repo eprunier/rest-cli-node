@@ -11,6 +11,9 @@ Options:
     -h, --host <hostname>
     	AMQP server host.
 
+    --json
+	Pretty print the response message as JSON.
+
     -k, --routing-key <routing key>
     	Routing key to use.
 
