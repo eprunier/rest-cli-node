@@ -12,7 +12,7 @@
     "main": "./lib/tsu.js",
     "repository": {
 	"type": "git",
-	"url": "https://eprunier@github.com/eprunier/tsunami.git"
+	"url": "https://github.com/eprunier/tsunami.git"
     },
     "keywords": [
 	"rest",
