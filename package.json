@@ -1,6 +1,6 @@
 {
     "name": "tsunami",
-    "version": "0.2.0-SNAPSHOT",
+    "version": "0.2.0",
     "description": "Command line client for testing microservices",
     "scripts": {
 	"start": "node ./bin/tsu",
