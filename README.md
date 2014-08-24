@@ -1,6 +1,18 @@
+## Microservices testing
+
+	Tsunami currently supports HTTP and AMQP protocols.
+
 ## Usage
 
 	npm install -g tsunami
+
+example for HTTP :
+
+	tsu http http://example.com -m post -u foo:bar -f file.json
+
+example for AMQP :
+
+	tsu amqp -e example-exchange -k example-routing-key -f file.json
 
 ## Help
 
