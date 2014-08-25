@@ -12,7 +12,7 @@ Examples for HTTP :
 	tsu http http://example.com -m post -d '{"foo": "bar"}'
 	tsu http http://example.com -m post -u foo:bar -f file.json
 
-example for AMQP :
+Examples for AMQP :
 
 	tsu amqp -e example-exchange -k example-routing-key "Hello world!"
 	tsu amqp -e example-exchange -k example-routing-key -f file.json
